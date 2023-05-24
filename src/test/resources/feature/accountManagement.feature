@@ -13,7 +13,7 @@ Scenario Outline: Create account with valid credentials
 
   Examples:
   |FirstName|LastName|Email|Password|ConfirmPassword|
-  |Timi     |Fab     |tim24@yahoo.com|Roseberry.|Roseberry.|
+  |Timi     |Fab     |tim26@yahoo.com|Roseberry.|Roseberry.|
 
 
   @duplicateAccount
@@ -27,7 +27,7 @@ Scenario Outline: Create account with valid credentials
 
     Examples:
       |FirstName|LastName|Email|Password|ConfirmPassword|
-      |Timi     |Fab     |tim24@yahoo.com|Roseberry.|Roseberry.|
+      |Timi     |Fab     |tim25@yahoo.com|Roseberry.|Roseberry.|
 
   @signIn
   Scenario Outline: Sign in with an existing credential
@@ -40,6 +40,6 @@ Scenario Outline: Create account with valid credentials
 
     Examples:
       |Email|Password|
-      |tim24@yahoo.com|Roseberry.|
+      |tim25@yahoo.com|Roseberry.|
 
 
